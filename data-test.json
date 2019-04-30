@@ -493,6 +493,17 @@
         "resource.identifier":"Colplanta-Images",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest Lamiaceae Key Genus Fact Sheets",
+      "identifier":"Harvest-Lamiaceae-Key-Genus-Fact-Sheets",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Lamiaceae-Key-Genus-Fact-Sheets",
+        "authority.uri":"https://storage.googleapis.com/powop-content/Lamiaceae/lamiaceae_factsheets.zip",
+        "resource.identifier":"Lamiaceae-Key-Genus-Fact-Sheets",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -542,6 +553,7 @@
         "Harvest-UPB-Common-Names",
         "Harvest-Colombian-Catalog",
         "Harvest-Colplanta-Images",
+        "Harvest-Lamiaceae-Key-Genus-Fact-Sheets",
         "reindex"
       ]
     }
@@ -549,7 +561,7 @@
   "organisations":[
     {
       "abbreviation":"KB",
-      "bibliographicCitation":"The International Plant Names Index and World Checklist of Selected Plant Families 2018. Published on the Internet at http://www.ipni.org and http://apps.kew.org/wcsp/",
+      "bibliographicCitation":"The International Plant Names Index and World Checklist of Selected Plant Families 2019. Published on the Internet at http://www.ipni.org and http://apps.kew.org/wcsp/",
       "description":"See <a href=\"http://apps.kew.org/wcsp/about.do\">http://apps.kew.org/wcsp/about.do</a>",
       "identifier":"Kew-Names-and-Taxonomic-Backbone",
       "resources":[
@@ -594,7 +606,7 @@
     },
     {
       "abbreviation":"KBD",
-      "bibliographicCitation":"The International Plant Names Index and World Checklist of Selected Plant Families 2018. Published on the Internet at http://www.ipni.org and http://apps.kew.org/wcsp/",
+      "bibliographicCitation":"The International Plant Names Index and World Checklist of Selected Plant Families 2019. Published on the Internet at http://www.ipni.org and http://apps.kew.org/wcsp/",
       "description":"See <a href=\"http://apps.kew.org/wcsp/about.do\">http://apps.kew.org/wcsp/about.do</a>",
       "identifier":"Kew-Backbone-Distributions",
       "resources":[
@@ -1024,7 +1036,11 @@
     },
     {
       "abbreviation":"ILDIS",
+      "bibliographicCitation":"International Legume Database and Information Service (ILDIS) V10.39 Nov 2011",
+      "creator":"POWOP content",
+      "description":"ILDIS",
       "identifier":"International-Legume-Database-and-Information-Service",
+      "publisherName":"POWOP content",
       "resources":[
         {
           "identifier":"ILDIS",
@@ -1034,11 +1050,16 @@
           "uri":"https://storage.googleapis.com/powop-content/ILDIS/ildis.zip"
         }
       ],
+      "subject":"; Legumes; ILDIS; Uses",
       "title":"International Legume Database and Information Service"
     },
     {
       "abbreviation":"CATE",
+      "bibliographicCitation":"Haigh, A., Clark, B., Reynolds, L., Mayo, S.J., Croat, T.B., Lay, L., Boyce, P.C., Mora, M., Bogner, J., Sellaro, M., Wong, S.Y., Kostelac, C., Grayum, M.H., Keating, R.C., Ruckert, G., Naylor, M.F. and Hay, A., CATE Araceae, 17 Dec 2011.",
+      "creator":"araceae.e-monocot.org",
+      "description":"An open-access taxonomic web-revision of the Araceae",
       "identifier":"CATE-Araceae",
+      "publisherName":"araceae.e-monocot.org",
       "resources":[
         {
           "identifier":"CATE-Araceae",
@@ -1048,10 +1069,13 @@
           "uri":"https://storage.googleapis.com/powop-content/emonocot/araceae.e-monocot.org.zip"
         }
       ],
+      "subject":"emonocot; Araceae; CATE",
       "title":"CATE Araceae"
     },
     {
       "abbreviation":"UPB",
+      "bibliographicCitation":"ColPlantA database",
+      "description":"ColPlantA database",
       "identifier":"Useful-Plants-of-Boyaca-Project",
       "resources":[
         {
@@ -1069,10 +1093,12 @@
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/PUBcommonNames.zip"
         }
       ],
+      "subject":"",
       "title":"Useful Plants of Boyacá Project"
     },
     {
       "abbreviation":"CPLC",
+      "description":"ColPlantA Data",
       "identifier":"Catalogo-de-Plantas-y-Liquenes-de-Colombia",
       "resources":[
         {
@@ -1083,10 +1109,12 @@
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta.zip"
         }
       ],
+      "subject":"Science; ColPlantA; Colombia; Royal Botanic Gardens, Kew",
       "title":"Catálogo de Plantas y Líquenes de Colombia"
     },
     {
       "abbreviation":"ColPlantA",
+      "description":"ColPlantA Photographs",
       "identifier":"Colombian-resources-for-Plants-made-Accessible",
       "resources":[
         {
@@ -1097,7 +1125,27 @@
           "uri":"https://storage.googleapis.com/powop-content/multimedia/colplanta_images.zip"
         }
       ],
+      "subject":"ColPlantA; Photographs; Digifolia; Royal Botanic Gardens, Kew",
       "title":"Colombian resources for Plants made Accessible"
+    },
+    {
+      "abbreviation":"LKGF",
+      "bibliographicCitation":"Nina Davies, Gemma Bramley and Don Kirkup, Royal Botanic Gardens, Kew",
+      "creator":"POWOP content",
+      "description":"Lamiaceae Key Genus Fact Sheets",
+      "identifier":"Lamiaceae-Key-Genus-Fact-Sheets",
+      "publisherName":"POWOP content",
+      "resources":[
+        {
+          "identifier":"Lamiaceae-Key-Genus-Fact-Sheets",
+          "organisation":"Lamiaceae-Key-Genus-Fact-Sheets",
+          "resourceType":"DwC_Archive",
+          "title":"Lamiaceae Key Genus Fact Sheets",
+          "uri":"https://storage.googleapis.com/powop-content/Lamiaceae/lamiaceae_factsheets.zip"
+        }
+      ],
+      "subject":"; Lamiaceae; Lamiales; Genus",
+      "title":"Lamiaceae Key Genus Fact Sheets"
     }
   ]
 }
