@@ -455,7 +455,7 @@
       "identifier":"Harvest-Useful-plants-of-Boyaca",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Useful-Plants-of-Boyaca-Project",
+        "authority.name":"UsefulPlantsofBoyacaProject",
         "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/PUB.zip",
         "resource.identifier":"Useful-plants-of-Boyaca",
         "skip.indexing":"true"
@@ -466,7 +466,7 @@
       "identifier":"Harvest-UPB-Common-Names",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Useful-Plants-of-Boyaca-Project",
+        "authority.name":"UsefulPlantsofBoyacaProject",
         "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/PUBcommonNames.zip",
         "resource.identifier":"UPB-Common-Names",
         "skip.indexing":"true"
@@ -477,7 +477,7 @@
       "identifier":"Harvest-Colombian-Catalog",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Catalogo-de-Plantas-y-Liquenes-de-Colombia",
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta.zip",
         "resource.identifier":"Colombian-Catalog",
         "skip.indexing":"true"
@@ -1076,18 +1076,18 @@
       "abbreviation":"UPB",
       "bibliographicCitation":"ColPlantA database",
       "description":"ColPlantA database",
-      "identifier":"Useful-Plants-of-Boyaca-Project",
+      "identifier":"UsefulPlantsofBoyacaProject",
       "resources":[
         {
           "identifier":"Useful-plants-of-Boyaca",
-          "organisation":"Useful-Plants-of-Boyaca-Project",
+          "organisation":"UsefulPlantsofBoyacaProject",
           "resourceType":"DwC_Archive",
           "title":"Useful plants of Boyaca",
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/PUB.zip"
         },
         {
           "identifier":"UPB-Common-Names",
-          "organisation":"Useful-Plants-of-Boyaca-Project",
+          "organisation":"UsefulPlantsofBoyacaProject",
           "resourceType":"DwC_Archive",
           "title":"UPB Common Names",
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/PUBcommonNames.zip"
@@ -1099,11 +1099,11 @@
     {
       "abbreviation":"CPLC",
       "description":"ColPlantA Data",
-      "identifier":"Catalogo-de-Plantas-y-Liquenes-de-Colombia",
+      "identifier":"CatalogodePlantasyLiquenesdeColombia",
       "resources":[
         {
           "identifier":"Colombian-Catalog",
-          "organisation":"Catalogo-de-Plantas-y-Liquenes-de-Colombia",
+          "organisation":"CatalogodePlantasyLiquenesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"Colombian Catalog",
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta.zip"
