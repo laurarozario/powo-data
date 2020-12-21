@@ -504,6 +504,17 @@
         "resource.identifier":"Lamiaceae-Key-Genus-Fact-Sheets",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest Flora of Somalia",
+      "identifier":"Harvest-Flora-of-Somalia",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-of-Somalia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FSomal/FLOSfinal.zip",
+        "resource.identifier":"Flora-of-Somalia",
+        "skip.indexing":"false"
+      }
     }
   ],
   "jobLists":[
@@ -554,6 +565,7 @@
         "Harvest-Colombian-Catalog",
         "Harvest-Colplanta-Images",
         "Harvest-Lamiaceae-Key-Genus-Fact-Sheets",
+        "Harvest-Flora-of-Somalia"
         "reindex"
       ]
     }
@@ -1146,6 +1158,25 @@
       ],
       "subject":"; Lamiaceae; Lamiales; Genus",
       "title":"Lamiaceae Key Genus Fact Sheets"
+    },
+    {
+      "abbreviation":"FSOM",
+      "bibliographicCitation":"Flora of Somalia",
+      "creator":"POWOP content",
+      "description":"Flora of Somalia",
+      "identifier":"Flora-of-Somalia",
+      "publisherName":"POWOP content",
+      "resources":[
+        {
+          "identifier":"Flora-of-Somalia",
+          "organisation":"Flora-of-Somalia",
+          "resourceType":"DwC_Archive",
+          "title":"Flora of Somalia",
+          "uri":"https://storage.googleapis.com/powop-content/FSomal/FLOSfinal.zip"
+        }
+      ],
+      "subject":"; Taxonomy; Typification; nomenclature; Angiosperms; Gymnosperms",
+      "title":"Flora of Somalia"
     }
   ]
 }
