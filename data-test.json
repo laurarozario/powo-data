@@ -513,7 +513,7 @@
         "authority.name":"Flora-of-Somalia",
         "authority.uri":"https://storage.googleapis.com/powop-content/FSomal/FLOSfinal.zip",
         "resource.identifier":"Flora-of-Somalia",
-        "skip.indexing":"false"
+        "skip.indexing":"true"
       }
     }
   ],
