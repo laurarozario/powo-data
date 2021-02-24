@@ -515,6 +515,63 @@
         "resource.identifier":"Flora-of-Somalia",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest ColFungi Names",
+      "identifier":"Harvest-ColFungi-Names",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat_20210223.zip",
+        "resource.identifier":"ColFungi-Names",
+        "skip.indexing":"true",
+        "taxon.processing.mode":"IMPORT_NAMES"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Taxonomy",
+      "identifier":"Harvest-ColFungi-Taxonomy",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip",
+        "resource.identifier":"ColFungi-Taxonomy",
+        "skip.indexing":"true",
+        "taxon.processing.mode":"IMPORT_TAXONOMY"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Distribution",
+      "identifier":"Harvest-ColFungi-Distribution",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_distribution.zip",
+        "resource.identifier":"ColFungi-Distribution",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Description",
+      "identifier":"Harvest-ColFungi-Description",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_descriptions.zip",
+        "resource.identifier":"ColFungi-Description",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Images",
+      "identifier":"Harvest-ColFungi-Images",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_images.zip",
+        "resource.identifier":"ColFungi-Images",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -566,6 +623,11 @@
         "Harvest-Colplanta-Images",
         "Harvest-Lamiaceae-Key-Genus-Fact-Sheets",
         "Harvest-Flora-of-Somalia",
+        "Harvest-ColFungi-Names",
+        "Harvest-ColFungi-Taxonomy",
+        "Harvest-ColFungi-Distribution",
+        "Harvest-ColFungi-Description",
+        "Harvest-ColFungi-Images",
         "reindex"
       ]
     }
@@ -1177,6 +1239,51 @@
       ],
       "subject":"; Taxonomy; Typification; nomenclature; Angiosperms; Gymnosperms",
       "title":"Flora of Somalia"
+    },
+    {
+      "abbreviation":"CHUC",
+      "bibliographicCitation":"ColFungi 2021. Published on the Internet at http://colfungi.org",
+      "description":"See <a href=\"http://colfungi.org/about\">http://colfungi.org/about</a>",
+      "identifier":"CatalogodeHongosUtilesdeColombia",
+      "resources":[
+        {
+          "identifier":"ColFungi-Names",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Names",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip"
+        },
+        {
+          "identifier":"ColFungi-Taxonomy",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Taxonomy",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip"
+        },
+        {
+          "identifier":"ColFungi-Distribution",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Distribution",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_distribution.zip"
+        },
+        {
+          "identifier":"ColFungi-Description",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Description",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_descriptions.zip"
+        },
+        {
+          "identifier":"ColFungi-Images",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Images",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_images.zip"
+        }
+      ],
+      "subject":"ColFungi; UPFC; Royal Botanic Gardens, Kew; Instituto Humboldt",
+      "title":"Catálogo de Hongos Utiles de Colombia"
     }
   ]
 }
