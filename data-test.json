@@ -572,6 +572,17 @@
         "resource.identifier":"ColFungi-Images",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest Flora of Iraq",
+      "identifier":"Harvest-Flora-of-Iraq",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-of-Iraq",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/Fl_Iraq_vol5pt2.zip",
+        "resource.identifier":"Flora-of-Iraq",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -628,6 +639,7 @@
         "Harvest-ColFungi-Distribution",
         "Harvest-ColFungi-Description",
         "Harvest-ColFungi-Images",
+        "Harvest-Flora-of-Iraq",
         "reindex"
       ]
     }
@@ -1284,6 +1296,20 @@
       ],
       "subject":"ColFungi; UPFC; Royal Botanic Gardens, Kew; Instituto Humboldt",
       "title":"Catálogo de Hongos Utiles de Colombia"
-    }
+    },
+    {
+      "abbreviation":"FIQ",
+      "identifier":"Flora-of-Iraq",
+      "resources":[
+        {
+          "identifier":"Flora-of-Iraq",
+          "organisation":"Flora-of-Iraq",
+          "resourceType":"DwC_Archive",
+          "title":"Flora of Iraq",
+          "uri":"https://storage.googleapis.com/powop-content/FIraq/Fl_Iraq_vol5pt2.zip"
+        }
+      ],
+      "title":"Flora of Iraq"
+    }    
   ]
 }
