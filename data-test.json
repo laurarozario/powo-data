@@ -605,6 +605,28 @@
         "resource.identifier":"Flora-of-Iraq",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest ColPlantA Herbcat Dets",
+      "identifier":"Harvest-ColPlantA-Herbcat-Dets",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Herbarium-Catalogue-Specimens",
+        "authority.uri":"https://storage.googleapis.com/powop-content/Herbcat/colplanta_herbcat_dets.zip",
+        "resource.identifier":"ColPlantA-Herbcat-Dets",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColPlantA Herbcat Images",
+      "identifier":"Harvest-ColPlantA-Herbcat-Images",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Herbarium-Catalogue-Specimens",
+        "authority.uri":"https://storage.googleapis.com/powop-content/multimedia/colplanta_herbcat_images.zip",
+        "resource.identifier":"ColPlantA-Herbcat-Images",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -654,6 +676,8 @@
         "Harvest-UPB-Common-Names",
         "Harvest-Colombian-Catalog",
         "Harvest-Colplanta-Images",
+        "Harvest-ColPlantA-Herbcat-Dets",
+        "Harvest-ColPlantA-Herbcat-Images",
         "Harvest-Additional-ColPlantA-Species",
         "Harvest-ColPlantA-Synonyms-Genera-Families",
         "Harvest-Lamiaceae-Key-Genus-Fact-Sheets",
@@ -913,6 +937,20 @@
           "resourceType":"DwC_Archive",
           "title":"Herbcat Images",
           "uri":"https://storage.googleapis.com/powop-content/multimedia/herbcat_images.zip"
+        },
+        {
+          "identifier":"ColPlantA-Herbcat-Dets",
+          "organisation":"Herbarium-Catalogue-Specimens",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA Herbcat Dets",
+          "uri":"https://storage.googleapis.com/powop-content/Herbcat/colplanta_herbcat_dets.zip"
+        },
+        {
+          "identifier":"ColPlantA-Herbcat-Images",
+          "organisation":"Herbarium-Catalogue-Specimens",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA Herbcat Images",
+          "uri":"https://storage.googleapis.com/powop-content/multimedia/colplanta_herbcat_images.zip"
         }
       ],
       "subject":"Kew; Herbarium; Determination",
