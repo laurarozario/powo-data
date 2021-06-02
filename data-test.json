@@ -506,13 +506,57 @@
       }
     },
     {
-      "description":"Harvest ColPlantA Synonyms, Genera and Families",
-      "identifier":"Harvest-ColPlantA-Synonyms-Genera-Families",
+      "description":"Harvest ColPlantA Genera and Families",
+      "identifier":"Harvest-ColPlantA-Genera-Families",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms_genera_families.zip",
-        "resource.identifier":"ColPlantA-Synonyms-Genera-Families",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families.zip",
+        "resource.identifier":"ColPlantA-Genera-Families",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColPlantA Synonyms",
+      "identifier":"Harvest-ColPlantA-Synonyms",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms.zip",
+        "resource.identifier":"ColPlantA-Synonyms",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest CPFC Species",
+      "identifier":"Harvest-CPFC-Species",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_species.zip",
+        "resource.identifier":"CPFC-Species",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest CPFC Genera and Families",
+      "identifier":"Harvest-CPFC-Genera-Families",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_genera_families.zip",
+        "resource.identifier":"CPFC-Genera-Families",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest CPFC Synonyms",
+      "identifier":"Harvest-CPFC-Synonyms",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_synonyms.zip",
+        "resource.identifier":"CPFC-Synonyms",
         "skip.indexing":"true"
       }
     },
@@ -679,7 +723,11 @@
         "Harvest-ColPlantA-Herbcat-Dets",
         "Harvest-ColPlantA-Herbcat-Images",
         "Harvest-Additional-ColPlantA-Species",
-        "Harvest-ColPlantA-Synonyms-Genera-Families",
+        "Harvest-ColPlantA-Genera-Families",
+        "Harvest-ColPlantA-Synonyms",
+        "Harvest-CPFC-Species",
+        "Harvest-CPFC-Genera-Families",
+        "Harvest-CPFC-Synonyms",
         "Harvest-Lamiaceae-Key-Genus-Fact-Sheets",
         "Harvest-Flora-of-Somalia",
         "Harvest-ColFungi-Names",
@@ -1264,11 +1312,39 @@
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_additional_taxa.zip"
         },
         {
-          "identifier":"ColPlantA-Synonyms-Genera-Families",
+          "identifier":"ColPlantA-Genera-Families",
           "organisation":"CatalogodePlantasyLiquenesdeColombia",
           "resourceType":"DwC_Archive",
-          "title":"ColPlantA Synonyms, Genera and Families",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms_genera_families.zip"
+          "title":"ColPlantA Genera and Families",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families.zip"
+        },
+        {
+          "identifier":"ColPlantA-Synonyms",
+          "organisation":"CatalogodePlantasyLiquenesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA Synonyms",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms.zip"
+        },
+        {
+          "identifier":"CPFC-Species",
+          "organisation":"CatalogodePlantasyLiquenesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"Species from the CPFC Catalogue",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_species.zip"
+        },
+        {
+          "identifier":"CPFC-Genera-Families",
+          "organisation":"CatalogodePlantasyLiquenesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"Genera and Families from the CPFC Catalogue",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_genera_families.zip"
+        },
+        {
+          "identifier":"CPFC-Synonyms",
+          "organisation":"CatalogodePlantasyLiquenesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"Synonyms from the CPFC Catalogue",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_synonyms.zip"
         }
       ],
       "subject":"Science; ColPlantA; Colombia; Royal Botanic Gardens, Kew",
