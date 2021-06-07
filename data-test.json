@@ -587,7 +587,7 @@
       "identifier":"Harvest-ColFungi-Names",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.name":"CatalogodeHongosdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip",
         "resource.identifier":"ColFungi-Names",
         "skip.indexing":"true",
@@ -599,7 +599,7 @@
       "identifier":"Harvest-ColFungi-Taxonomy",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.name":"CatalogodeHongosdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip",
         "resource.identifier":"ColFungi-Taxonomy",
         "skip.indexing":"true",
@@ -611,7 +611,7 @@
       "identifier":"Harvest-ColFungi-Distribution",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.name":"CatalogodeHongosdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_distribution_uat.zip",
         "resource.identifier":"ColFungi-Distribution",
         "skip.indexing":"true"
@@ -622,7 +622,7 @@
       "identifier":"Harvest-ColFungi-Description",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.name":"CatalogodeHongosdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_descriptions_uat.zip",
         "resource.identifier":"ColFungi-Description",
         "skip.indexing":"true"
@@ -633,7 +633,7 @@
       "identifier":"Harvest-ColFungi-Images",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.name":"CatalogodeHongosdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_images_uat.zip",
         "resource.identifier":"ColFungi-Images",
         "skip.indexing":"true"
@@ -1408,46 +1408,46 @@
       "abbreviation":"CHUC",
       "bibliographicCitation":"ColFungi 2021. Published on the Internet at http://colfungi.org",
       "description":"See <a href=\"http://colfungi.org/about\">http://colfungi.org/about</a>",
-      "identifier":"CatalogodeHongosUtilesdeColombia",
+      "identifier":"CatalogodeHongosdeColombia",
       "resources":[
         {
           "identifier":"ColFungi-Names",
-          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "organisation":"CatalogodeHongosdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Names",
           "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip"
         },
         {
           "identifier":"ColFungi-Taxonomy",
-          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "organisation":"CatalogodeHongosdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Taxonomy",
           "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip"
         },
         {
           "identifier":"ColFungi-Distribution",
-          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "organisation":"CatalogodeHongosdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Distribution",
           "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_distribution_uat.zip"
         },
         {
           "identifier":"ColFungi-Description",
-          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "organisation":"CatalogodeHongosdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Description",
           "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_descriptions_uat.zip"
         },
         {
           "identifier":"ColFungi-Images",
-          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "organisation":"CatalogodeHongosdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Images",
           "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_images_uat.zip"
         }
       ],
       "subject":"ColFungi; UPFC; Royal Botanic Gardens, Kew; Instituto Humboldt",
-      "title":"Catálogo de Hongos Utiles de Colombia"
+      "title":"Catálogo de Hongos de Colombia"
     },
     {
       "abbreviation":"FIQ",
