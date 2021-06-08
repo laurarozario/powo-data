@@ -640,6 +640,50 @@
       }
     },
     {
+      "description":"Harvest ColFungi IMI Determinations",
+      "identifier":"Harvest-ColFungi-IMI-Dets",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_dets_uat.zip",
+        "resource.identifier":"ColFungi-IMI-Dets",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColFungi IMI Images",
+      "identifier":"Harvest-ColFungi-IMI-Images",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_images_uat.zip",
+        "resource.identifier":"ColFungi-IMI-Images",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Herbtrack Determinations",
+      "identifier":"Harvest-ColFungi-Herbtrack-Dets",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_dets_uat.zip",
+        "resource.identifier":"ColFungi-Herbtrack-Dets",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Herbtrack Images",
+      "identifier":"Harvest-ColFungi-Herbtrack-Images",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_images_uat.zip",
+        "resource.identifier":"ColFungi-Herbtrack-Images",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest Flora of Iraq",
       "identifier":"Harvest-Flora-of-Iraq",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -735,6 +779,10 @@
         "Harvest-ColFungi-Distribution",
         "Harvest-ColFungi-Description",
         "Harvest-ColFungi-Images",
+        "Harvest-ColFungi-IMI-Dets",
+        "Harvest-ColFungi-IMI-Images",
+        "Harvest-ColFungi-Herbtrack-Dets",
+        "Harvest-ColFungi-Herbtrack-Images",
         "Harvest-Flora-of-Iraq",
         "reindex"
       ]
@@ -1444,10 +1492,38 @@
           "resourceType":"DwC_Archive",
           "title":"ColFungi Images",
           "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_images_uat.zip"
+        },
+        {
+          "identifier":"ColFungi-IMI-Dets",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi IMI Determinations",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_dets_uat.zip"
+        },
+        {
+          "identifier":"ColFungi-IMI-Images",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi IMI Images",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_images_uat.zip"
+        },
+        {
+          "identifier":"ColFungi-Herbtrack-Dets",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Herbtrack Determinations",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_dets_uat.zip"
+        },
+        {
+          "identifier":"ColFungi-Herbtrack-Images",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Herbtrack Images",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_images_uat.zip"
         }
       ],
       "subject":"ColFungi; UPFC; Royal Botanic Gardens, Kew; Instituto Humboldt",
-      "title":"Catálogo de Hongos Utiles de Colombia"
+      "title":"Catálogo de Hongos de Colombia"
     },
     {
       "abbreviation":"FIQ",
