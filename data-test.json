@@ -588,7 +588,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip",
         "resource.identifier":"ColFungi-Names",
         "skip.indexing":"true",
         "taxon.processing.mode":"IMPORT_NAMES"
@@ -600,7 +600,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip",
         "resource.identifier":"ColFungi-Taxonomy",
         "skip.indexing":"true",
         "taxon.processing.mode":"IMPORT_TAXONOMY"
@@ -612,7 +612,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_distribution_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_distribution.zip",
         "resource.identifier":"ColFungi-Distribution",
         "skip.indexing":"true"
       }
@@ -623,7 +623,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_descriptions_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_descriptions.zip",
         "resource.identifier":"ColFungi-Description",
         "skip.indexing":"true"
       }
@@ -634,7 +634,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_images_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_images.zip",
         "resource.identifier":"ColFungi-Images",
         "skip.indexing":"true"
       }
@@ -645,7 +645,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_dets_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_imi_dets.zip",
         "resource.identifier":"ColFungi-IMI-Dets",
         "skip.indexing":"true"
       }
@@ -656,7 +656,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_images_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_imi_images.zip",
         "resource.identifier":"ColFungi-IMI-Images",
         "skip.indexing":"true"
       }
@@ -667,7 +667,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_dets_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_herbtrack_dets.zip",
         "resource.identifier":"ColFungi-Herbtrack-Dets",
         "skip.indexing":"true"
       }
@@ -678,7 +678,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodeHongosUtilesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_images_uat.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_herbtrack_images.zip",
         "resource.identifier":"ColFungi-Herbtrack-Images",
         "skip.indexing":"true"
       }
@@ -1463,63 +1463,63 @@
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Names",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip"
         },
         {
           "identifier":"ColFungi-Taxonomy",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Taxonomy",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_names_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip"
         },
         {
           "identifier":"ColFungi-Distribution",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Distribution",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_distribution_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_distribution.zip"
         },
         {
           "identifier":"ColFungi-Description",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Description",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_descriptions_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_descriptions.zip"
         },
         {
           "identifier":"ColFungi-Images",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Images",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_images_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_images.zip"
         },
         {
           "identifier":"ColFungi-IMI-Dets",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi IMI Determinations",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_dets_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_imi_dets.zip"
         },
         {
           "identifier":"ColFungi-IMI-Images",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi IMI Images",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_imi_images_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_imi_images.zip"
         },
         {
           "identifier":"ColFungi-Herbtrack-Dets",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Herbtrack Determinations",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_dets_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_herbtrack_dets.zip"
         },
         {
           "identifier":"ColFungi-Herbtrack-Images",
           "organisation":"CatalogodeHongosUtilesdeColombia",
           "resourceType":"DwC_Archive",
           "title":"ColFungi Herbtrack Images",
-          "uri":"https://storage.googleapis.com/powop-content/test-data/colfungi_herbtrack_images_uat.zip"
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_herbtrack_images.zip"
         }
       ],
       "subject":"ColFungi; UPFC; Royal Botanic Gardens, Kew; Instituto Humboldt",
