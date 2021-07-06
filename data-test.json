@@ -499,7 +499,7 @@
       "identifier":"Harvest-ColPlantA-References",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Colombian-resources-for-Plants-made-Accessible",
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_references.zip",
         "resource.identifier":"ColPlantA-References",
         "skip.indexing":"true"
