@@ -500,7 +500,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Colombian-resources-for-Plants-made-Accessible",
-        "authority.uri":"https://storage.googleapis.com/powop-content/multimedia/colplanta_references.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_references.zip",
         "resource.identifier":"ColPlantA-References",
         "skip.indexing":"true"
       }
