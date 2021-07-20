@@ -518,35 +518,35 @@
       }
     },
     {
-      "description":"Harvest Additional ColPlantA Species",
-      "identifier":"Harvest-Additional-ColPlantA-Species",
+      "description":"Harvest Additional ColPlantA Species from WCVP",
+      "identifier":"Harvest-Additional-ColPlantA-Species-WCVP",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_additional_taxa.zip",
-        "resource.identifier":"Additional-ColPlantA-Species",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_additional_taxa_wcvp.zip",
+        "resource.identifier":"Additional-ColPlantA-Species-WCVP",
         "skip.indexing":"true"
       }
     },
     {
-      "description":"Harvest ColPlantA Genera and Families",
-      "identifier":"Harvest-ColPlantA-Genera-Families",
+      "description":"Harvest ColPlantA Genera and Families from WCVP",
+      "identifier":"Harvest-ColPlantA-Genera-Families-WCVP",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families.zip",
-        "resource.identifier":"ColPlantA-Genera-Families",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families_wcvp.zip",
+        "resource.identifier":"ColPlantA-Genera-Families-WCVP",
         "skip.indexing":"true"
       }
     },
     {
-      "description":"Harvest ColPlantA Synonyms",
-      "identifier":"Harvest-ColPlantA-Synonyms",
+      "description":"Harvest ColPlantA Synonyms from WCVP",
+      "identifier":"Harvest-ColPlantA-Synonyms-WCVP",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms.zip",
-        "resource.identifier":"ColPlantA-Synonyms",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms_wcvp.zip",
+        "resource.identifier":"ColPlantA-Synonyms-WCVP",
         "skip.indexing":"true"
       }
     },
@@ -791,9 +791,9 @@
         "Harvest-ColPlantA-References",
         "Harvest-ColPlantA-Herbcat-Dets",
         "Harvest-ColPlantA-Herbcat-Images",
-        "Harvest-Additional-ColPlantA-Species",
-        "Harvest-ColPlantA-Genera-Families",
-        "Harvest-ColPlantA-Synonyms",
+        "Harvest-Additional-ColPlantA-Species-WCVP",
+        "Harvest-ColPlantA-Genera-Families-WCVP",
+        "Harvest-ColPlantA-Synonyms-WCVP",
         "Harvest-CPFC-Species",
         "Harvest-CPFC-Genera-Families",
         "Harvest-CPFC-Synonyms",
@@ -1392,25 +1392,25 @@
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_references.zip"
         },
         {
-          "identifier":"Additional-ColPlantA-Species",
+          "identifier":"Additional-ColPlantA-Species-WCVP",
           "organisation":"CatalogodePlantasyLiquenesdeColombia",
           "resourceType":"DwC_Archive",
-          "title":"Additional ColPlantA Species",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_additional_taxa.zip"
+          "title":"Additional ColPlantA Species from WCVP",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_additional_taxa_wcvp.zip"
         },
         {
-          "identifier":"ColPlantA-Genera-Families",
+          "identifier":"ColPlantA-Genera-Families-WCVP",
           "organisation":"CatalogodePlantasyLiquenesdeColombia",
           "resourceType":"DwC_Archive",
-          "title":"ColPlantA Genera and Families",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families.zip"
+          "title":"ColPlantA Genera and Families from WCVP",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families_wcvp.zip"
         },
         {
-          "identifier":"ColPlantA-Synonyms",
+          "identifier":"ColPlantA-Synonyms-WCVP",
           "organisation":"CatalogodePlantasyLiquenesdeColombia",
           "resourceType":"DwC_Archive",
-          "title":"ColPlantA Synonyms",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms.zip"
+          "title":"ColPlantA Synonyms from WCVP",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms_wcvp.zip"
         },
         {
           "identifier":"CPFC-Species",
