@@ -257,6 +257,18 @@
       }
     },
     {
+      "description":"Harvest Orchid Illustrations",
+      "identifier":"Harvest-Orchid-Illustrations",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Art-and-Illustrations-in-Digifolia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/multimedia/orchid_illustrations.zip",
+        "prefix":"https://storage.googleapis.com/powop-assets",
+        "resource.identifier":"Orchid-Illustrations",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest Orchideae: e-monocot.org",
       "identifier":"Harvest-Orchideae-e-monocot-org",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -756,6 +768,7 @@
         "Harvest-Herbcat-Autonym-Dets",
         "Harvest-Library-Art-and-Archives",
         "Harvest-Colombian-Illustrations",
+        "Harvest-Orchid-Illustrations",
         "Harvest-Orchideae-e-monocot-org",
         "Harvest-Eulophiinae-e-monocot-org",
         "Harvest-Cypripedioideae-e-monocot-org",
@@ -1082,6 +1095,13 @@
           "resourceType":"DwC_Archive",
           "title":"Colombian Illustrations",
           "uri":"http://storage.googleapis.com/powop-content/multimedia/colombia.zip"
+        },
+        {
+          "identifier":"Orchid-Illustrations",
+          "organisation":"Art-and-Illustrations-in-Digifolia",
+          "resourceType":"DwC_Archive",
+          "title":"Orchid Illustrations",
+          "uri":"https://storage.googleapis.com/powop-content/multimedia/orchid_illustrations.zip"
         }
       ],
       "subject":"Art; Illustrations; Digifolia; Royal Botanic Gardens, Kew",
