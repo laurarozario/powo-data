@@ -496,6 +496,17 @@
       }
     },
     {
+      "description":"Harvest ColPlantA Common Names",
+      "identifier":"Harvest-ColPlantA-Common-Names",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip",
+        "resource.identifier":"ColPlantA-Common-Names",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest Colplanta Images",
       "identifier":"Harvest-Colplanta-Images",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -721,6 +732,7 @@
         "Harvest-Useful-plants-of-Boyaca",
         "Harvest-UPB-Common-Names",
         "Harvest-Colombian-Catalog",
+        "Harvest-ColPlantA-Common-Names",
         "Harvest-Colplanta-Images",
         "Harvest-ColPlantA-Accepted-Taxa",
         "Harvest-ColPlantA-Herbcat-Dets",
@@ -1311,6 +1323,13 @@
           "resourceType":"DwC_Archive",
           "title":"Colombian Catalog",
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta.zip"
+        },
+        {
+          "identifier":"ColPlantA-Common-Names",
+          "organisation":"CatalogodePlantasyLiquenesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA Common Names",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip"
         },
         {
           "identifier":"ColPlantA-Accepted-Taxa",
