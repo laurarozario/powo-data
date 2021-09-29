@@ -496,6 +496,17 @@
       }
     },
     {
+      "description":"Harvest ColPlantA Common Names",
+      "identifier":"Harvest-ColPlantA-Common-Names",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"UniversidadNacionaldeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip",
+        "resource.identifier":"ColPlantA-Common-Names",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest Colplanta Images",
       "identifier":"Harvest-Colplanta-Images",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -507,79 +518,13 @@
       }
     },
     {
-      "description":"Harvest ColPlantA References",
-      "identifier":"Harvest-ColPlantA-References",
+      "description":"Harvest ColPlantA Accepted Taxa",
+      "identifier":"Harvest-ColPlantA-Accepted-Taxa",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_references.zip",
-        "resource.identifier":"ColPlantA-References",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest Additional ColPlantA Species from WCVP",
-      "identifier":"Harvest-Additional-ColPlantA-Species-WCVP",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_additional_taxa_wcvp.zip",
-        "resource.identifier":"Additional-ColPlantA-Species-WCVP",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest ColPlantA Genera and Families from WCVP",
-      "identifier":"Harvest-ColPlantA-Genera-Families-WCVP",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families_wcvp.zip",
-        "resource.identifier":"ColPlantA-Genera-Families-WCVP",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest ColPlantA Synonyms from WCVP",
-      "identifier":"Harvest-ColPlantA-Synonyms-WCVP",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms_wcvp.zip",
-        "resource.identifier":"ColPlantA-Synonyms-WCVP",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest CPFC Species",
-      "identifier":"Harvest-CPFC-Species",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_species.zip",
-        "resource.identifier":"CPFC-Species",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest CPFC Genera and Families",
-      "identifier":"Harvest-CPFC-Genera-Families",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_genera_families.zip",
-        "resource.identifier":"CPFC-Genera-Families",
-        "skip.indexing":"true"
-      }
-    },
-    {
-      "description":"Harvest CPFC Synonyms",
-      "identifier":"Harvest-CPFC-Synonyms",
-      "jobName":"DarwinCoreArchiveHarvesting",
-      "parameters":{
-        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_synonyms.zip",
-        "resource.identifier":"CPFC-Synonyms",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_accepted_taxa.zip",
+        "resource.identifier":"ColPlantA-Accepted-Taxa",
         "skip.indexing":"true"
       }
     },
@@ -787,16 +732,11 @@
         "Harvest-Useful-plants-of-Boyaca",
         "Harvest-UPB-Common-Names",
         "Harvest-Colombian-Catalog",
+        "Harvest-ColPlantA-Common-Names",
         "Harvest-Colplanta-Images",
-        "Harvest-ColPlantA-References",
+        "Harvest-ColPlantA-Accepted-Taxa",
         "Harvest-ColPlantA-Herbcat-Dets",
         "Harvest-ColPlantA-Herbcat-Images",
-        "Harvest-Additional-ColPlantA-Species-WCVP",
-        "Harvest-ColPlantA-Genera-Families-WCVP",
-        "Harvest-ColPlantA-Synonyms-WCVP",
-        "Harvest-CPFC-Species",
-        "Harvest-CPFC-Genera-Families",
-        "Harvest-CPFC-Synonyms",
         "Harvest-Lamiaceae-Key-Genus-Fact-Sheets",
         "Harvest-Flora-of-Somalia",
         "Harvest-ColFungi-Names",
@@ -1385,57 +1325,31 @@
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta.zip"
         },
         {
-          "identifier":"ColPlantA-References",
+          "identifier":"ColPlantA-Accepted-Taxa",
           "organisation":"CatalogodePlantasyLiquenesdeColombia",
           "resourceType":"DwC_Archive",
-          "title":"ColPlantA References",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_references.zip"
-        },
-        {
-          "identifier":"Additional-ColPlantA-Species-WCVP",
-          "organisation":"CatalogodePlantasyLiquenesdeColombia",
-          "resourceType":"DwC_Archive",
-          "title":"Additional ColPlantA Species from WCVP",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_additional_taxa_wcvp.zip"
-        },
-        {
-          "identifier":"ColPlantA-Genera-Families-WCVP",
-          "organisation":"CatalogodePlantasyLiquenesdeColombia",
-          "resourceType":"DwC_Archive",
-          "title":"ColPlantA Genera and Families from WCVP",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_genera_families_wcvp.zip"
-        },
-        {
-          "identifier":"ColPlantA-Synonyms-WCVP",
-          "organisation":"CatalogodePlantasyLiquenesdeColombia",
-          "resourceType":"DwC_Archive",
-          "title":"ColPlantA Synonyms from WCVP",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_synonyms_wcvp.zip"
-        },
-        {
-          "identifier":"CPFC-Species",
-          "organisation":"CatalogodePlantasyLiquenesdeColombia",
-          "resourceType":"DwC_Archive",
-          "title":"Species from the CPFC Catalogue",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_species.zip"
-        },
-        {
-          "identifier":"CPFC-Genera-Families",
-          "organisation":"CatalogodePlantasyLiquenesdeColombia",
-          "resourceType":"DwC_Archive",
-          "title":"Genera and Families from the CPFC Catalogue",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_genera_families.zip"
-        },
-        {
-          "identifier":"CPFC-Synonyms",
-          "organisation":"CatalogodePlantasyLiquenesdeColombia",
-          "resourceType":"DwC_Archive",
-          "title":"Synonyms from the CPFC Catalogue",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_cpfc_synonyms.zip"
+          "title":"ColPlantA Accepted Taxa",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_accepted_taxa.zip"
         }
       ],
       "subject":"Science; ColPlantA; Colombia; Royal Botanic Gardens, Kew",
       "title":"Catálogo de Plantas y Líquenes de Colombia"
+    },
+    {
+      "abbreviation":"UNAL",
+      "description":"ColPlantA Data from the National University of Colombia",
+      "identifier":"UniversidadNacionaldeColombia",
+      "resources":[
+        {
+          "identifier":"ColPlantA-Common-Names",
+          "organisation":"UniversidadNacionaldeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA Common Names",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip"
+        }
+      ],
+      "subject":"Science; ColPlantA; Colombia; Royal Botanic Gardens, Kew",
+      "title":"Universidad Nacional de Colombia"
     },
     {
       "abbreviation":"ColPlantA",
