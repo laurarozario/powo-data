@@ -500,7 +500,7 @@
       "identifier":"Harvest-ColPlantA-Common-Names",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
+        "authority.name":"UniversidadNacionaldeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip",
         "resource.identifier":"ColPlantA-Common-Names",
         "skip.indexing":"true"
@@ -1325,13 +1325,6 @@
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta.zip"
         },
         {
-          "identifier":"ColPlantA-Common-Names",
-          "organisation":"CatalogodePlantasyLiquenesdeColombia",
-          "resourceType":"DwC_Archive",
-          "title":"ColPlantA Common Names",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip"
-        },
-        {
           "identifier":"ColPlantA-Accepted-Taxa",
           "organisation":"CatalogodePlantasyLiquenesdeColombia",
           "resourceType":"DwC_Archive",
@@ -1341,6 +1334,22 @@
       ],
       "subject":"Science; ColPlantA; Colombia; Royal Botanic Gardens, Kew",
       "title":"Catálogo de Plantas y Líquenes de Colombia"
+    },
+    {
+      "abbreviation":"UNAL",
+      "description":"ColPlantA Data from the National University of Colombia",
+      "identifier":"UniversidadNacionaldeColombia",
+      "resources":[
+        {
+          "identifier":"ColPlantA-Common-Names",
+          "organisation":"UniversidadNacionaldeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA Common Names",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip"
+        }
+      ],
+      "subject":"Science; ColPlantA; Colombia; Royal Botanic Gardens, Kew",
+      "title":"Universidad Nacional de Colombia"
     },
     {
       "abbreviation":"ColPlantA",
