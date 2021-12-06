@@ -496,6 +496,17 @@
       }
     },
     {
+      "description":"Harvest Colombian Catalog Reference",
+      "identifier":"Harvest-Colombian-Catalog-Reference",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodePlantasyLiquenesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_catalogue_reference.zip",
+        "resource.identifier":"Colombian-Catalog-Reference",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest ColPlantA Common Names",
       "identifier":"Harvest-ColPlantA-Common-Names",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -503,6 +514,28 @@
         "authority.name":"UsefulPlantsandFungiOfColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip",
         "resource.identifier":"ColPlantA-Common-Names",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColPlantA Descriptions",
+      "identifier":"Harvest-ColPlantA-Descriptions",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"UsefulPlantsandFungiOfColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_descriptions.zip",
+        "resource.identifier":"ColPlantA-Descriptions",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColPlantA References",
+      "identifier":"Harvest-ColPlantA-References",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"UsefulPlantsandFungiOfColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_references.zip",
+        "resource.identifier":"ColPlantA-References",
         "skip.indexing":"true"
       }
     },
@@ -534,7 +567,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"UsefulPlantsandFungiOfColombia",
-        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_accepted_taxa.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_accepted_taxa.zip",
         "resource.identifier":"ColPlantA-Accepted-Taxa",
         "skip.indexing":"true"
       }
@@ -743,6 +776,9 @@
         "Harvest-Useful-plants-of-Boyaca",
         "Harvest-UPB-Common-Names",
         "Harvest-Colombian-Catalog",
+        "Harvest-Colombian-Catalog-Reference",
+        "Harvest-ColPlantA-Descriptions",
+        "Harvest-ColPlantA-References",
         "Harvest-ColPlantA-Common-Names",
         "Harvest-ColPlantA-Common-Names-UNAL",
         "Harvest-Colplanta-Images",
@@ -1335,6 +1371,13 @@
           "resourceType":"DwC_Archive",
           "title":"Colombian Catalog",
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta.zip"
+        },
+        {
+          "identifier":"Colombian-Catalog-Reference",
+          "organisation":"CatalogodePlantasyLiquenesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"Colombian Catalog",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_catalogue_reference.zip"
         }
       ],
       "subject":"Science; ColPlantA; Colombia; Royal Botanic Gardens, Kew",
@@ -1342,9 +1385,23 @@
     },
     {
       "abbreviation":"UPFC",
-      "description":"ColPlantA Accepted and Common Names",
+      "description":"ColPlantA Data",
       "identifier":"UsefulPlantsandFungiOfColombia",
       "resources":[
+        {
+          "identifier":"ColPlantA-Descriptions",
+          "organisation":"UsefulPlantsandFungiOfColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA Descriptions",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_descriptions.zip"
+        },
+        {
+          "identifier":"ColPlantA-References",
+          "organisation":"UsefulPlantsandFungiOfColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColPlantA References",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_references.zip"
+        },
         {
           "identifier":"ColPlantA-Common-Names",
           "organisation":"UsefulPlantsandFungiOfColombia",
@@ -1357,7 +1414,7 @@
           "organisation":"UsefulPlantsandFungiOfColombia",
           "resourceType":"DwC_Archive",
           "title":"ColPlantA Accepted Taxa",
-          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_accepted_taxa.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_accepted_taxa.zip"
         }
       ],
       "subject":"Science; ColPlantA; UPFC; Colombia; Royal Botanic Gardens, Kew",
