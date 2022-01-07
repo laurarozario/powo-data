@@ -529,6 +529,17 @@
       }
     },
     {
+      "description":"Harvest Legacy UPB Taxa",
+      "identifier":"Harvest-ColPlantA-UPB-Legacy",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"UsefulPlantsandFungiOfColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_upb_legacy.zip",
+        "resource.identifier":"ColPlantA-UPB-Legacy",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest ColPlantA References",
       "identifier":"Harvest-ColPlantA-References",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -778,6 +789,7 @@
         "Harvest-Colombian-Catalog",
         "Harvest-Colombian-Catalog-Reference",
         "Harvest-ColPlantA-Descriptions",
+        "Harvest-ColPlantA-UPB-Legacy",
         "Harvest-ColPlantA-References",
         "Harvest-ColPlantA-Common-Names",
         "Harvest-ColPlantA-Common-Names-UNAL",
@@ -1394,6 +1406,13 @@
           "resourceType":"DwC_Archive",
           "title":"ColPlantA Descriptions",
           "uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_descriptions.zip"
+        },
+        {
+          "identifier":"ColPlantA-UPB-Legacy",
+          "organisation":"UsefulPlantsandFungiOfColombia",
+          "resourceType":"DwC_Archive",
+          "title":"Legacy UPB Taxa",
+          "uri":"https://storage.googleapis.com/powop-content/test-data/colplanta_upb_legacy.zip"
         },
         {
           "identifier":"ColPlantA-References",
