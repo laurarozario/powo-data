@@ -630,6 +630,30 @@
       }
     },
     {
+      "description":"Harvest ColFungi Synonyms",
+      "identifier":"Harvest-ColFungi-Synonyms",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_synonyms.zip",
+        "resource.identifier":"ColFungi-Synonyms",
+        "skip.indexing":"true",
+        "taxon.processing.mode":"IMPORT_NAMES"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Synonyms Taxonomy",
+      "identifier":"Harvest-ColFungi-Synonyms-Taxonomy",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_synonyms.zip",
+        "resource.identifier":"ColFungi-Synonyms-Taxonomy",
+        "skip.indexing":"true",
+        "taxon.processing.mode":"IMPORT_TAXONOMY"
+      }
+    },
+    {
       "description":"Harvest ColFungi Distribution",
       "identifier":"Harvest-ColFungi-Distribution",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -801,6 +825,8 @@
         "Harvest-Flora-of-Somalia",
         "Harvest-ColFungi-Names",
         "Harvest-ColFungi-Taxonomy",
+        "Harvest-ColFungi-Synonyms",
+        "Harvest-ColFungi-Synonyms-Taxonomy",
         "Harvest-ColFungi-Distribution",
         "Harvest-ColFungi-Description",
         "Harvest-ColFungi-Images",
@@ -1528,6 +1554,20 @@
           "resourceType":"DwC_Archive",
           "title":"ColFungi Taxonomy",
           "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_names.zip"
+        },
+        {
+          "identifier":"ColFungi-Synonyms",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Synonyms",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_synonyms.zip"
+        },
+        {
+          "identifier":"ColFungi-Synonyms-Taxonomy",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Synonyms Taxonomy",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_synonyms.zip"
         },
         {
           "identifier":"ColFungi-Distribution",
