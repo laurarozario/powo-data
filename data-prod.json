@@ -573,6 +573,17 @@
       }
     },
     {
+      "description":"Harvest Colplanta Distribution Maps",
+      "identifier":"Harvest-Colplanta-Distribution-Maps",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Colombian-resources-for-Plants-made-Accessible",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_maps.zip",
+        "resource.identifier":"Colplanta-Distribution-Maps",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest ColPlantA Accepted Taxa",
       "identifier":"Harvest-ColPlantA-Accepted-Taxa",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -683,6 +694,17 @@
         "authority.name":"CatalogodeHongosUtilesdeColombia",
         "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_images.zip",
         "resource.identifier":"ColFungi-Images",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest ColFungi Distribution Maps",
+      "identifier":"Harvest-ColFungi-Distribution-Maps",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"CatalogodeHongosUtilesdeColombia",
+        "authority.uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_maps.zip",
+        "resource.identifier":"ColFungi-Distribution-Maps",
         "skip.indexing":"true"
       }
     },
@@ -818,6 +840,7 @@
         "Harvest-ColPlantA-Common-Names",
         "Harvest-ColPlantA-Common-Names-UNAL",
         "Harvest-Colplanta-Images",
+        "Harvest-Colplanta-Distribution-Maps",
         "Harvest-ColPlantA-Accepted-Taxa",
         "Harvest-ColPlantA-Herbcat-Dets",
         "Harvest-ColPlantA-Herbcat-Images",
@@ -830,6 +853,7 @@
         "Harvest-ColFungi-Distribution",
         "Harvest-ColFungi-Description",
         "Harvest-ColFungi-Images",
+        "Harvest-ColFungi-Distribution-Maps",
         "Harvest-ColFungi-IMI-Dets",
         "Harvest-ColFungi-IMI-Images",
         "Harvest-ColFungi-Herbtrack-Dets",
@@ -1455,6 +1479,13 @@
           "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_common_names.zip"
         },
         {
+          "identifier":"Colplanta-Distribution-Maps",
+          "organisation":"Colombian-resources-for-Plants-made-Accessible",
+          "resourceType":"DwC_Archive",
+          "title":"Colplanta Distribution Maps",
+          "uri":"https://storage.googleapis.com/powop-content/colPlantA/colplanta_maps.zip"
+        },
+        {
           "identifier":"ColPlantA-Accepted-Taxa",
           "organisation":"UsefulPlantsandFungiOfColombia",
           "resourceType":"DwC_Archive",
@@ -1589,6 +1620,13 @@
           "resourceType":"DwC_Archive",
           "title":"ColFungi Images",
           "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_images.zip"
+        },
+        {
+          "identifier":"ColFungi-Distribution-Maps",
+          "organisation":"CatalogodeHongosUtilesdeColombia",
+          "resourceType":"DwC_Archive",
+          "title":"ColFungi Distribution Maps",
+          "uri":"https://storage.googleapis.com/powop-content/colfungi/colfungi_maps.zip"
         },
         {
           "identifier":"ColFungi-IMI-Dets",
