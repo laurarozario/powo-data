@@ -18,7 +18,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Kew-Names-and-Taxonomic-Backbone",
-        "authority.uri":"https://storage.googleapis.com/powop-content/backbone/powoPlantFamilies.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoPlantFamilies.zip",
         "reference.processing.mode":"SKIP_REFERENCES",
         "resource.identifier":"Family-and-Genus-Names",
         "skip.indexing":"true",
@@ -31,7 +31,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Kew-Names-and-Taxonomic-Backbone",
-        "authority.uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoNames.zip",
         "reference.processing.mode":"SKIP_REFERENCES",
         "resource.identifier":"Species-Names",
         "skip.indexing":"true",
@@ -44,7 +44,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Kew-Names-and-Taxonomic-Backbone",
-        "authority.uri":"https://storage.googleapis.com/powop-content/backbone/powoPlantFamilies.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoPlantFamilies.zip",
         "resource.identifier":"Family-and-Genus-Taxonomy",
         "skip.indexing":"true",
         "taxon.processing.mode":"IMPORT_TAXONOMY"
@@ -56,7 +56,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Kew-Names-and-Taxonomic-Backbone",
-        "authority.uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoNames.zip",
         "resource.identifier":"Species-Taxonomy",
         "skip.indexing":"true",
         "taxon.processing.mode":"IMPORT_TAXONOMY"
@@ -68,7 +68,7 @@
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
         "authority.name":"Kew-Backbone-Distributions",
-        "authority.uri":"https://storage.googleapis.com/powop-content/backbone/powoDistribution.zip",
+        "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoDistribution.zip",
         "resource.identifier":"WCS-Distributions",
         "skip.indexing":"true"
       }
@@ -882,28 +882,28 @@
           "organisation":"Kew-Names-and-Taxonomic-Backbone",
           "resourceType":"DwC_Archive",
           "title":"Family and Genus Names",
-          "uri":"https://storage.googleapis.com/powop-content/backbone/powoPlantFamilies.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/powoPlantFamilies.zip"
         },
         {
           "identifier":"Species-Names",
           "organisation":"Kew-Names-and-Taxonomic-Backbone",
           "resourceType":"DwC_Archive",
           "title":"Species Names",
-          "uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/powoNames.zip"
         },
         {
           "identifier":"Family-and-Genus-Taxonomy",
           "organisation":"Kew-Names-and-Taxonomic-Backbone",
           "resourceType":"DwC_Archive",
           "title":"Family and Genus Taxonomy",
-          "uri":"https://storage.googleapis.com/powop-content/backbone/powoPlantFamilies.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/powoPlantFamilies.zip"
         },
         {
           "identifier":"Species-Taxonomy",
           "organisation":"Kew-Names-and-Taxonomic-Backbone",
           "resourceType":"DwC_Archive",
           "title":"Species Taxonomy",
-          "uri":"https://storage.googleapis.com/powop-content/backbone/powoNames.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/powoNames.zip"
         }
       ],
       "subject":"WCSP; World Checklist of Selected Plant families; Royal Botanic Gardens, Kew",
@@ -920,7 +920,7 @@
           "organisation":"Kew-Backbone-Distributions",
           "resourceType":"DwC_Archive",
           "title":"WCS Distributions",
-          "uri":"https://storage.googleapis.com/powop-content/backbone/powoDistribution.zip"
+          "uri":"https://storage.googleapis.com/powop-content/test-data/powoDistribution.zip"
         }
       ],
       "subject":"WCSP; World Checklist of Selected Plant families; Royal Botanic Gardens, Kew",
