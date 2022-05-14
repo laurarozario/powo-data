@@ -784,6 +784,17 @@
         "resource.identifier":"ColPlantA-Herbcat-Images",
         "skip.indexing":"true"
       }
+    },
+    {
+      "description":"Harvest Living Collection Common Names",
+      "identifier":"Harvest-Living-Collection-Common-Names",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Kew-Living-Collection-Database",
+        "authority.uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_namesV2.zip",
+        "resource.identifier":"Living-Collection-Common-Names",
+        "skip.indexing":"true"
+      }
     }
   ],
   "jobLists":[
@@ -859,6 +870,7 @@
         "Harvest-ColFungi-Herbtrack-Dets",
         "Harvest-ColFungi-Herbtrack-Images",
         "Harvest-Flora-of-Iraq",
+        "Harvest-Living-Collection-Common-Names",
         "reindex"
       ]
     }
@@ -1673,6 +1685,20 @@
         }
       ],
       "title":"Flora of Iraq"
-    }    
+    },
+    {
+      "abbreviation":"LCD",
+      "identifier":"Kew-Living-Collection-Database",
+      "resources":[
+        {
+          "identifier":"Living-Collection-Common-Names",
+          "organisation":"Kew-Living-Collection-Database",
+          "resourceType":"DwC_Archive",
+          "title":"Living Collection Common Names",
+          "uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_namesV2.zip"
+        }
+      ],
+      "title":"Kew Living Collection Database"
+    }
   ]
 }
