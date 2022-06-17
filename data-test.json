@@ -63,13 +63,13 @@
       }
     },
     {
-      "description":"Harvest WCS Distributions",
-      "identifier":"Harvest-WCS-Distributions",
+      "description":"Harvest WCVP Distributions",
+      "identifier":"Harvest-WCVP-Distributions",
       "jobName":"DarwinCoreArchiveHarvesting",
       "parameters":{
-        "authority.name":"Kew-Backbone-Distributions",
+        "authority.name":"World-Checklist-Vascular-Plants",
         "authority.uri":"https://storage.googleapis.com/powop-content/test-data/powoDistribution.zip",
-        "resource.identifier":"WCS-Distributions",
+        "resource.identifier":"WCVP-Distributions",
         "skip.indexing":"true"
       }
     },
@@ -807,7 +807,7 @@
         "Harvest-Species-Names",
         "Harvest-Family-and-Genus-Taxonomy",
         "Harvest-Species-Taxonomy",
-        "Harvest-WCS-Distributions",
+        "Harvest-WCVP-Distributions",
         "Harvest-FTEA-all-descriptions",
         "Harvest-FWTA",
         "Harvest-Illustrations-from-Flora-of-West-Tropical-Africa",
@@ -878,8 +878,8 @@
   "organisations":[
     {
       "abbreviation":"KB",
-      "bibliographicCitation":"The International Plant Names Index and World Checklist of Selected Plant Families 2019. Published on the Internet at http://www.ipni.org and http://apps.kew.org/wcsp/",
-      "description":"See <a href=\"http://apps.kew.org/wcsp/about.do\">http://apps.kew.org/wcsp/about.do</a>",
+      "bibliographicCitation":"The International Plant Names Index and World Checklist of Vascular Plants. Published on the Internet at http://www.ipni.org and https://wcvp.science.kew.org/",
+      "description":"See <a href=\"https://wcvp.science.kew.org\">https://wcvp.science.kew.org</a>",
       "identifier":"Kew-Names-and-Taxonomic-Backbone",
       "resources":[
         {
@@ -918,25 +918,25 @@
           "uri":"https://storage.googleapis.com/powop-content/test-data/powoNames.zip"
         }
       ],
-      "subject":"WCSP; World Checklist of Selected Plant families; Royal Botanic Gardens, Kew",
+      "subject":"Kew Names and Taxonomic Backbone; Royal Botanic Gardens, Kew",
       "title":"Kew Names and Taxonomic Backbone"
     },
     {
-      "abbreviation":"KBD",
-      "bibliographicCitation":"The International Plant Names Index and World Checklist of Selected Plant Families 2019. Published on the Internet at http://www.ipni.org and http://apps.kew.org/wcsp/",
-      "description":"See <a href=\"http://apps.kew.org/wcsp/about.do\">http://apps.kew.org/wcsp/about.do</a>",
-      "identifier":"Kew-Backbone-Distributions",
+      "abbreviation":"WCVP",
+      "bibliographicCitation":"WCVP (2022). World Checklist of Vascular Plants, Facilitated by the Royal Botanic Gardens, Kew. Published on the Internet; http://wcvp.science.kew.org/",
+      "description":"See <a href=\"http://wcvp.science.kew.org\">http://wcvp.science.kew.org</a>",
+      "identifier":"World-Checklist-Vascular-Plants",
       "resources":[
         {
-          "identifier":"WCS-Distributions",
-          "organisation":"Kew-Backbone-Distributions",
+          "identifier":"WCVP-Distributions",
+          "organisation":"World-Checklist-Vascular-Plants",
           "resourceType":"DwC_Archive",
-          "title":"WCS Distributions",
+          "title":"WCVP Distributions",
           "uri":"https://storage.googleapis.com/powop-content/test-data/powoDistribution.zip"
         }
       ],
-      "subject":"WCSP; World Checklist of Selected Plant families; Royal Botanic Gardens, Kew",
-      "title":"Kew Backbone Distributions"
+      "subject":"WCVP; World Checklist of Vascular plants; Royal Botanic Gardens, Kew",
+      "title":"World Checklist of Vascular plants (WCVP)"
     },
     {
       "abbreviation":"FTEA",
