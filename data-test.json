@@ -764,6 +764,17 @@
       }
     },
     {
+      "description":"Harvest Flora of Iraq Vol 5 Part 1",
+      "identifier":"Harvest-Flora-of-Iraq-5-1",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Flora-of-Iraq",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FIraq/FIQV5P1.zip",
+        "resource.identifier":"Flora-of-Iraq-5-1",
+        "skip.indexing":"true"
+      }
+    },
+    {
       "description":"Harvest ColPlantA Herbcat Dets",
       "identifier":"Harvest-ColPlantA-Herbcat-Dets",
       "jobName":"DarwinCoreArchiveHarvesting",
@@ -793,6 +804,17 @@
         "authority.name":"Kew-Living-Collection-Database",
         "authority.uri":"https://storage.googleapis.com/powop-content/common_names/LCDcommon_namesV2.zip",
         "resource.identifier":"Living-Collection-Common-Names",
+        "skip.indexing":"true"
+      }
+    },
+    {
+      "description":"Harvest Frontiers in Plant Science Victoria boliviana",
+      "identifier":"Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"Frontiers-in-Plant-Science",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FrontPlantSci/Front_Victoria_boliviana.zip",
+        "resource.identifier":"Frontiers-in-Plant-Science-Victoria-boliviana",
         "skip.indexing":"true"
       }
     }
@@ -870,7 +892,9 @@
         "Harvest-ColFungi-Herbtrack-Dets",
         "Harvest-ColFungi-Herbtrack-Images",
         "Harvest-Flora-of-Iraq",
+        "Harvest-Flora-of-Iraq-5-1",
         "Harvest-Living-Collection-Common-Names",
+        "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "reindex"
       ]
     }
@@ -1682,6 +1706,13 @@
           "resourceType":"DwC_Archive",
           "title":"Flora of Iraq",
           "uri":"https://storage.googleapis.com/powop-content/FIraq/Fl_Iraq_vol5pt2.zip"
+        },
+        {
+          "identifier":"Flora-of-Iraq-5-1",
+          "organisation":"Flora-of-Iraq",
+          "resourceType":"DwC_Archive",
+          "title":"Harvest Flora of Iraq Vol 5 Part 1",
+          "uri":"https://storage.googleapis.com/powop-content/FIraq/FIQV5P1.zip"
         }
       ],
       "title":"Flora of Iraq"
@@ -1699,6 +1730,20 @@
         }
       ],
       "title":"Kew Living Collection Database"
+    },
+    {
+      "abbreviation":"FPS",
+      "identifier":"Frontiers-in-Plant-Science",
+      "resources":[
+        {
+          "identifier":"Frontiers-in-Plant-Science-Victoria-boliviana",
+          "organisation":"Frontiers-in-Plant-Science",
+          "resourceType":"DwC_Archive",
+          "title":"Frontiers in Plant Science Victoria boliviana",
+          "uri":"https://storage.googleapis.com/powop-content/FrontPlantSci/Front_Victoria_boliviana.zip"
+        }
+      ],
+      "title":"Frontiers in Plant Science"
     }
   ]
 }
