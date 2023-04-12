@@ -838,6 +838,17 @@
         "authority.uri":"https://storage.googleapis.com/powop-content/TONG/TreesNewGuinea.zip",
         "resource.identifier":"Trees-of-New-Guinea",
         "skip.indexing":"true"
+         }
+    },
+    {
+      "description":"Harvest FZ Acanthaceae",
+      "identifier":"Harvest-FZ-Acanthaceae",
+      "jobName":"DarwinCoreArchiveHarvesting",
+      "parameters":{
+        "authority.name":"FZ-Acanthaceae",
+        "authority.uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip",
+        "resource.identifier":"FZ-Acanthaceae",
+        "skip.indexing":"true"
       }
     }
   ],
@@ -919,6 +930,7 @@
         "Harvest-Living-Collection-Common-Names",
         "Harvest-Frontiers-in-Plant-Science-Victoria-boliviana",
         "Harvest-Trees-of-New-Guinea",
+        "Harvest-FZ-Acanthaceae",
         "reindex"
       ]
     }
@@ -1789,6 +1801,20 @@
         }
       ],
       "title":"Trees of New Guinea"
+       },
+    {
+      "abbreviation":"FZ",
+      "identifier":"FZ-Acanthaceae",
+      "resources":[
+        {
+          "identifier":"FZ-Acanthaceae",
+          "organisation":"FZ-Acanthaceae",
+          "resourceType":"DwC_Archive",
+          "title":"FZ Acanthaceae",
+          "uri":"https://storage.googleapis.com/powop-content/FZ/FZ_Acanthaceae.zip"
+        }
+      ],
+      "title":"FZ Acanthaceae"
     }
   ]
 }
